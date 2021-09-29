@@ -24,6 +24,7 @@ module.exports = {
                 longDescription: longDescription,
                 status: status,
             })
+
             for (const author of authors) {
                 await bookAuthors.create({authorsName: author, bookId: CreatBook.id})
             }

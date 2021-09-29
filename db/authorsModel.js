@@ -7,11 +7,9 @@ const bookAuthors = sequelize.define('authors', {
         type: DataTypes.INTEGER,
         autoIncrement: true,
         primaryKey: true,
-        allowNull: false
     },
     authorsName: {
         type: DataTypes.STRING,
-        allowNull: false
     }
 },{
     timestamps: false

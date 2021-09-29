@@ -6,7 +6,6 @@ const bookSchema = sequelize.define('book', {
         type: DataTypes.INTEGER,
         autoIncrement: true,
         primaryKey: true,
-        allowNull: false
     },
     title: {
         type: DataTypes.STRING,

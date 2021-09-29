@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const {bookMiddleware} = require('../middleware')
+const {bookMiddleware} = require('../middleware');
 const {bookControllers} = require("../controllers");
 
 router.post('/', bookMiddleware.checkAddBook, bookControllers.creatBook);
